@@ -29,7 +29,7 @@ class Program
 			{
 				Console.Write("Aantal personen: ");
 				int aantalPersonen = Convert.ToInt32(Console.ReadLine());
-				for (int i = 1; i == aantalPersonen; i++) 
+				for (int i = 1; i <= aantalPersonen; i++) 
 				{
 					Console.Write($"Leeftijd Persoon{i}: ");
 					int LeeftijdPersoon = Convert.ToInt32(Console.ReadLine());
