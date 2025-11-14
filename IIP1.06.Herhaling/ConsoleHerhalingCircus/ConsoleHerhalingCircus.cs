@@ -45,7 +45,7 @@ class Program
 			Console.ReadKey();
 			} break;
 			case 'b' : {
-				Console.WriteLine($"Volwassenen: {TicketVolwassenen}");
+				Console.WriteLine($"Volwassenen: {TicketVolwasse<nen}");
 				Console.WriteLine($"Kinderen: {TicketKinderen}");
 				Console.ReadKey();
 				}	break;
@@ -91,5 +91,10 @@ class Program
 		
    }
    
-   
+   				for (int i = 1; i == aantalPersonen; i++) 
+				{
+					Console.Write($"{i}");
+					
+					
+				}
 }
